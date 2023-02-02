@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px;
+    color: #2D8957;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first-screen {
+    padding-top: 38px;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    background: url('../img/bg.png') no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.first-screen__title {
+    text-transform: uppercase;
+    font-size: 31.88px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.first-screen__text {
+    font-size: 16.4px;
+    margin-bottom: 30px;
+}
+
+.first-screen__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.first-screen__item {
+    background: linear-gradient(186.15deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+    background: -o-linear-gradient(263.85deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+    border-radius: 27px;
+    border: 1px solid #fff;
+    width: 112px;
+    height: 115px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.first-screen__item:hover {
+    cursor: pointer;
+    width: 123px;
+    height: 126px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.second-screen {
+    display: none;
+    padding-top: 73px;
+    background: url('../img/bg-2.png') no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.show-second-screen {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+  
+.visuallyhidden {
+    opacity: 0;
+}
+
+.second-screen__title {
+    font-size: 35px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.second-screen__btn {
+    font-size: 26px;
+    color: #2D8957;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    padding: 7px 51px;
+    background: linear-gradient(186.15deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+    background: -o-linear-gradient(263.85deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+    border: 1px solid #fff;
+    border-radius: 32px;
+}
